@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+  .longevity-container {
+    width: 70vw !important;
+  }
+}
+
+.longevity-container {
+  width: 50%;
+  margin: 1rem auto;
+  background: #fff;
+  box-shadow: 0 3px 15px 0 rgba(76, 74, 92, 0.1);
+  padding: 2rem;
+  border-radius: 0.5rem;
+
+  .divider-container {
+    margin: 3rem 0;
+    .divider {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 18px;
+      text-align: center;
+    }
+  }
+
+  .btn-container {
+    text-align: right;
+    .calculate-btn {
+      margin: 1rem 0 0 0;
+    }
+  }
+}

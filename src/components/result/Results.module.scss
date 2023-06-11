@@ -1,0 +1,74 @@
+@media only screen and (max-width: 600px) {
+  .resultsModal {
+    width: 90% !important;
+    min-width: 90% !important;
+    margin: 6rem auto 3rem;
+    .modalcontainer {
+      width: inherit;
+      .body {
+        .chart {
+          width: auto !important;
+          height: auto !important;
+        }
+      }
+    }
+  }
+}
+.resultsModal {
+  padding-top: 0;
+  width: 60%;
+  margin: 5rem auto 3rem;
+  border-radius: 0.5rem;
+
+  .modalcontainer {
+    margin: 3rem auto;
+    background: #fff;
+    border-radius: 0.5rem;
+    color: #2a2937;
+    box-shadow: 0 3px 15px 0 rgba(76, 74, 92, 0.1);
+
+    .header {
+      padding: 1rem;
+      background: #f7f6fc;
+      border-radius: 0.5rem 0.5rem 0 0 !important;
+
+      h5 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: 0.05rem;
+        line-height: 1rem;
+        margin: 0.5rem 0 0.5rem 0;
+      }
+    }
+
+    .body {
+      .subtitle {
+        text-align: center;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+
+      .chart {
+        width: 300px;
+        height: 300px;
+        margin: auto;
+      }
+    }
+
+    .actionButton {
+      text-align: right;
+      .tagBlackColor {
+        opacity: 0.8;
+        color: #767299;
+        font-size: 0.9rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        line-height: 1rem;
+        margin: 0 2rem 0.9rem 0;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
